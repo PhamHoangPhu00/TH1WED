@@ -1,0 +1,48 @@
+body {
+    background-color: #ffffff;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0px auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#header {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#img-space {
+    flex-basis: 60%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#activity {
+    flex-basis: 40%;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+#slogan {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size:20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+#header-form{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size:30px;
+
+}
+#copy-writer{
+    
+    justify-content: center;
+    display: flex;
+}
+#submit{
+    text-align: center;
+}
